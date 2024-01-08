@@ -1,5 +1,5 @@
 :root {
-  --pink: #f14e95;
+  --pink: #0dcaf0;
   --bg: #0a0a0a;
   --shadow: 0 2px 2px rgb(0 0 0 / 0.5);
 }
@@ -428,7 +428,7 @@ footer li {
   }
 
   .simply-countdown>.simply-section {
-    padding: 60px;
+    padding: 65px;
     margin: 5px;
   }
 
@@ -453,15 +453,19 @@ footer li {
     font-size: 60%;
   }
 
+  .hero h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4.5rem;
+  }
+
   .simply-countdown>.simply-section {
-    padding: 38px;
+    padding: 40px;
     margin: 3px;
   }
 
   .mynavbar .nav-link {
     font-size: 2rem;
     text-align: center;
-    color: white;
   }
 
   .timeline li .timeline-image {
