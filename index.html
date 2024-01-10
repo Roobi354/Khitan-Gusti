@@ -20,7 +20,9 @@
 
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
+  <!-- Animation parallax-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!--Css Sendiri-->
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -29,10 +31,14 @@
   <section id="hero"
     class="hero w-100 h-100 p-3 mx-auto text-center d-flex justify-content-center align-items-center text-white">
     <main>
-      <h4>Kepada <span>Bapak/Ibu/Saudara/i, </span></h4>
-      <h1>M. I Gusti Ramdani</h1>
-      <h4>Anak dari <span> Ali kusini & Viva kusnia, </span></h4>
-      <p>Akan mengadakan acara syukuran khitanan dalam:</p>
+      <h4 data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">Kepada <span>Bapak/Ibu/Saudara/i, </span>
+      </h4>
+      <h1 data-aos="zoom-in-up" data-aos-duration="3000" data-aos-once="true">M. I Gusti Ramdani</h1>
+      <h4 data-aos="fade-left" data-aos-duration="3000" data-aos-once="true">Anak dari <span> Ali kusini & Viva
+          kusnia,
+        </span></h4>
+      <p data-aos="fade-right" data-aos-duration="3000" data-aos-once="true">Akan mengadakan acara syukuran khitanan
+        dalam:</p>
       <div class="simply-countdown"></div>
       <a href="#home" class="btn btn-lg mt-4" onClick="enableScroll()">Lihat Undangan</a>
     </main>
@@ -40,13 +46,13 @@
   </section>
   <nav class="navbar navbar-expand sticky-top mynavbar ">
     <div class="container">
-      <a class="navbar-brand" href="#" style="color: #0dcaf0;">Gusti</a>
+      <a class="navbar-brand" href="#" style="color: #0dcaf0;">Menu</a>
       <div class="offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Gusti</h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
         </div>
         <div class="offcanvas-header">
-          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Gusti</h5>
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
         </div>
         <div class="navbar-nav mx-sm-auto btn-group">
           <a class="nav-link px-4 btn btn-outline-info" href="#home"><i class="bi bi-house-door-fill"></i></a>
@@ -64,9 +70,11 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-          <h2>Acara Khitanan</h2>
-          <h3>Diselenggarakan pada 10 Februari 2024 di Dsn. Jimbir, Ds. Sugih Waras, Kec. Prambon.</h3>
-          <p>Oleh karena itu, dengan segala hormat, kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir
+          <h2 data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">Acara Khitanan</h2>
+          <h3>Diselenggarakan pada 10 Februari 2024
+            di Dsn. Jimbir, Ds. Sugih Waras, Kec. Prambon.</h3>
+          <p data-aos="fade-right" data-aos-duration="3000" data-aos-once="true">Oleh karena itu, dengan segala hormat,
+            kami bermaksud untuk mengundang Bapak/Ibu, Saudara/i, untuk hadir
             pada acara syukuran khitanan anak kami. </p>
         </div>
       </div>
@@ -79,17 +87,21 @@
           <div class="row">
             <div class="col-4 "></div>
             <div class="col-4 text-center">
-              <img src="img/gusti.png" alt="Sandhika Galih" class="img-responsive rounded-circle img">
+              <img src="img/gusti.png" alt="Sandhika Galih" class="img-responsive rounded-circle img"
+                data-aos="zoom-in-up" data-aos-duration="3000" data-aos-once="true">
             </div>
           </div>
           <div class="col-4 "></div>
           <div class="row">
             <div class="col-2"></div>
             <div class="col-8 text-center">
-              <h3>M I Gusti Ramdani</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque praesentium aut ipsa perferendis,
+              <h3 data-aos="zoom-in-down" data-aos-duration="3000" data-aos-once="true">M I Gusti Ramdani</h3>
+              <p data-aos="fade-right" data-aos-duration="3000" data-aos-once="true">Lorem ipsum dolor sit amet
+                consectetur adipisicing elit. Atque praesentium aut ipsa perferendis,
                 incidunt soluta?</p>
-              <p>Putra dari Bpk. Lorem <br> dan <br> Ibu Ipsum</p>
+              <p data-aos="zoom-in" data-aos-duration=" 3000" data-aos-once="true">Putra dari Bpk. ALi kusnia <br> dan
+                <br> Ibu Viva Kusnia
+              </p>
             </div>
             <div class="col-2"></div>
           </div>
@@ -106,25 +118,30 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
-          <h2>Informasi Acara</h2>
-          <p class="alamat">Alamat: Samping Masjid LDII Jimbir. <br> Jl. Jimbir, Sugihwaras, Kec. Prambon, Kabupaten
+          <h2 data-aos="zoom-in-down" data-aos-duration="3000" data-aos-once="true">Informasi Acara</h2>
+          <p class="alamat">Alamat: Samping Masjid
+            LDII
+            Jimbir. <br> Jl. Jimbir, Sugihwaras, Kec. Prambon, Kabupaten
             Nganjuk, Jawa Timur 64484</p>
 
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d984.6382740993738!2d112.001332001683!3d-7.683318146638642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e784f13a75d18f5%3A0x1bc058f65a80ea3f!2sMASJID%20LDII%20JIMBIR!5e1!3m2!1sid!2sid!4v1704613145658!5m2!1sid!2sid"
             width="100%" height="250" class="border-white border-3" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerpolicy="no-referrer-when-downgrade" data-aos="zoom-in-down" data-aos-duration="3000"
+            data-aos-once="true"></iframe>
 
           <a href="https://goo.gl/maps/R9seweCadg9MNyox5" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk
             membuka peta</a>
-          <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak
+          <p class="description">Diharapkan untuk
+            tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak
             ada tanda-tanda sedang dilangsungkan acara, boleh jadi Anda salah jadwal, atau salah tempat.</p>
         </div>
       </div>
 
       <div class="row justify-content-center mt-4">
         <div class="col-md-5 col-10">
-          <div class="card text-center text-bg-light mb-5">
+          <div class="card text-center text-bg-light mb-5" data-aos="zoom-in-up" data-aos-duration="3000"
+            data-aos-once="true">
             <div class="card-header">Hiburan Musik (Electone)</div>
             <div class="card-body">
               <div class="row justify-content-center">
@@ -143,7 +160,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-5 col-10">
+        <div class="col-md-5 col-10" data-aos="zoom-in-up" data-aos-duration="3000" data-aos-once="true">
           <div class="card text-center text-bg-light">
             <div class="card-header">Syukuran Khitanan</div>
             <div class="card-body">
@@ -171,9 +188,11 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-md-8 col-10 text-center">
-          <span>Berikut adalah susunan acara :</span>
-          <h2>Acara</h2>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro, similique non soluta nulla asperiores
+          <span data-aos="fade-up" data-aos-duration="3000" data-aos-once="true">Berikut adalah susunan acara
+            :</span>
+          <h2 data-aos="zoom-in" data-aos-duration="3000" data-aos-once="true">Acara</h2>
+          <p data-aos="zoom-in-down" data-aos-duration="3000" data-aos-once="true">Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Porro, similique non soluta nulla asperiores
             voluptatem.</p>
         </div>
       </div>
@@ -279,8 +298,27 @@
             <img src="img/gallery/thumbnail/6.jpg" alt="Sandhika & Nofa 6" class="img-fluid w-100 rounded">
           </a>
         </div>
+        <div class="col mt-3">
+          <a href="img/gallery/thumbnail/-1.jpg" data-toggle="lightbox" data-caption="Sandhika & Nofa 1"
+            data-gallery="mygallery">
+            <img src="img/gallery/thumbnail/-1.jpg" alt="Sandhika & Nofa 1" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/thumbnail/2.jpg" data-toggle="lightbox" data-caption="Sandhika & Nofa 2"
+            data-gallery="mygallery">
+            <img src="img/gallery/thumbnail/2.jpg" alt="Sandhika & Nofa 2" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+          <a href="img/gallery/thumbnail/3.jpg" data-toggle="lightbox" data-caption="Sandhika & Nofa 3"
+            data-gallery="mygallery">
+            <img src="img/gallery/thumbnail/3.jpg" alt="Sandhika & Nofa 3" class="img-fluid w-100 rounded">
+          </a>
+        </div>
+        <div class="col mt-3">
+        </div>
       </div>
-    </div>
   </section>
 
   <section id="rsvp" class="rsvp">
@@ -365,12 +403,14 @@
         <div class="col-md-6">
           <ul class="list-group">
             <li class="list-group-item">
-              <div class="fw-bold">BCA</div>
-              123456789 - SANDHIKA GALIH
+              <div class="fw-bold">MANDIRI</div>
+              1710006045283 - MOH ROOBI AL FURQON
             </li>
             <li class="list-group-item">
-              <div class="fw-bold">MANDIRI</div>
-              987654321 - SANDHIKA GALIH
+              <div class="fw-bold">KONFIRMASI</div>
+              <a target="_blank" aria-label="Chat on WhatsApp" href="https://wa.me/+6281357151934"><img
+                  alt="Chat on WhatsApp" src="img/WhatsAppButtonGreenSmall.svg" />
+                <a />
             </li>
             <li class="list-group-item">
               <div class="fw-bold">Saweria</div>
@@ -524,6 +564,13 @@
     namaContainer.innerText = `${pronoun} ${nama},`.replace(/ ,$/, ',');
 
     document.querySelector('#nama').value = nama;
+  </script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 3000,
+      once: true,
+    });
   </script>
 </body>
 
