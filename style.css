@@ -301,6 +301,28 @@ body {
   background-color: #f5f5f5;
 }
 
+.memori .subMemori {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: .5s;
+}
+
+.memori .subMemori.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.menumk .menuMakanan {
+  opacity: 0;
+  transform: translate(0, -40px);
+  transition: .5s;
+}
+
+.menumk .menuMakanan.muncul {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
 .rsvp {
   background-color: var(--bg);
 }
